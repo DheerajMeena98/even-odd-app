@@ -1,0 +1,62 @@
+.even-odd-bcg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+}
+
+.count-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.even-odd-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #334155;
+  font-size: 24px;
+}
+
+.increment-button {
+  width: 120px;
+  height: 37px;
+  background-color: #ffffff;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: bold;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.increase-number-title {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+
+@media screen and (min-width: 768px) {
+  .count-heading {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  .even-odd-heading {
+    font-size: 30px;
+  }
+
+  .increase-number-title {
+    font-size: 22px;
+  }
+
+  .increment-button {
+    width: 140px;
+    height: 40px;
+    border-radius: 14px;
+    border: 0px;
+  }
+}
